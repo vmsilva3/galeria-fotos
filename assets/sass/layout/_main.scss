@@ -127,7 +127,7 @@
 			background-attachment: scroll !important;
 		}
 
-		@include breakpoint(xxlarge) {
+		@include breakpoint('<=xxlarge') {
 			&.style2 {
 				.content {
 					width: 40%;
@@ -135,7 +135,7 @@
 			}
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint('<=large') {
 			&.style2 {
 				.content {
 					width: 50%;
@@ -143,7 +143,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include breakpoint('<=medium') {
 			&.style2 {
 				.content {
 					width: 60%;
@@ -151,7 +151,13 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint('<=small') {
+			> .content {
+				br {
+					display: none;
+				}
+			}
+
 			&.fullscreen {
 				height: auto !important;
 			}
@@ -190,7 +196,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		@include breakpoint('<=xsmall') {
 			> .content {
 				max-width: calc(100% - 1.5em);
 			}

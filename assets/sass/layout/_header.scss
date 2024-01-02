@@ -58,7 +58,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint('<=small') {
 			height: 2.5em;
 			line-height: 2.5em;
 
@@ -84,7 +84,7 @@
 	body {
 		padding-top: 3em;
 
-		@include breakpoint(small) {
+		@include breakpoint('<=small') {
 			padding-top: 2.5em;
 		}
 	}

@@ -61,7 +61,7 @@
 			}
 		}
 
-		@include breakpoint(xsmall) {
+		@include breakpoint('<=xsmall') {
 			@include vendor('flex-wrap', 'nowrap');
 			@include vendor('flex-direction', 'column');
 

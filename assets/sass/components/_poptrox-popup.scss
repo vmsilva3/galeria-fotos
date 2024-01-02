@@ -161,7 +161,7 @@
 			}
 		}
 
-		@include breakpoint(small) {
+		@include breakpoint('<=small') {
 			.nav-next:before,
 			.nav-previous:before {
 				width: 48px;

@@ -16,23 +16,6 @@
 			}
 		}
 
-		&.icons {
-			cursor: default;
-
-			li {
-				display: inline-block;
-			}
-
-			a {
-				display: inline-block;
-				width: 2em;
-				height: 2em;
-				line-height: 2em;
-				text-align: center;
-				border: 0;
-			}
-		}
-
 		&.menu {
 			cursor: default;
 
@@ -46,19 +29,6 @@
 				&:first-child {
 					border-left: 0;
 					padding-left: 0;
-					margin-left: 0;
-				}
-			}
-		}
-
-		&.actions {
-			cursor: default;
-
-			li {
-				display: inline-block;
-				margin: 0 0 0 0.5em;
-
-				&:first-child {
 					margin-left: 0;
 				}
 			}
